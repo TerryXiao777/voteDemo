@@ -1,0 +1,11 @@
+<map id="mymap" name="mymap">
+<area shape="poly" coords="177,100,198,84,222,72,247,64,275,62,275,185,275,185" title="温暖的抱抱 比例:13%" alt="" nohref="nohref"/>
+<area shape="poly" coords="156,127,166,113,177,100,275,185,275,185" title="拆弹专家2 比例:4%" alt="" nohref="nohref"/>
+<area shape="poly" coords="144,158,149,142,156,127,275,185,275,185" title="人潮汹涌 比例:4%" alt="" nohref="nohref"/>
+<area shape="poly" coords="140,191,141,174,144,158,275,185,275,185" title="我的姐姐 比例:4%" alt="" nohref="nohref"/>
+<area shape="poly" coords="154,239,144,216,140,191,275,185,275,185" title="刺杀小说家 比例:6%" alt="" nohref="nohref"/>
+<area shape="poly" coords="206,292,190,281,175,269,163,255,154,239,275,185,275,185" title="哥斯拉大战金刚 比例:9%" alt="" nohref="nohref"/>
+<area shape="poly" coords="405,213,401,227,395,240,387,253,378,265,367,275,355,284,342,292,327,299,312,304,297,307,281,309,265,309,250,307,235,303,220,298,206,292,275,185,275,185" title="送你一朵小红花 比例:30%" alt="" nohref="nohref"/>
+<area shape="poly" coords="367,96,379,108,389,121,397,135,403,150,407,165,409,181,408,197,405,213,275,185,275,185" title="唐人街探案3 比例:16%" alt="" nohref="nohref"/>
+<area shape="poly" coords="275,62,300,64,324,71,347,81,367,96,275,185,275,185" title="你好，李焕英 比例:12%" alt="" nohref="nohref"/>
+</map>

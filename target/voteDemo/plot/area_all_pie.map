@@ -1,0 +1,13 @@
+<map id="mymap" name="mymap">
+<area shape="poly" coords="231,68,252,63,275,62,275,185,275,185" title="吉林省珲春市 比例:5%" alt="" nohref="nohref"/>
+<area shape="poly" coords="192,88,211,77,231,68,275,185,275,185" title="吉林省延边州 比例:5%" alt="" nohref="nohref"/>
+<area shape="poly" coords="162,118,176,102,192,88,275,185,275,185" title="福建省 比例:5%" alt="" nohref="nohref"/>
+<area shape="poly" coords="141,196,141,175,144,155,152,136,162,118,275,185,275,185" title="广西 比例:11%" alt="" nohref="nohref"/>
+<area shape="poly" coords="176,269,162,253,152,235,144,216,141,196,275,185,275,185" title="广西梧州市 比例:11%" alt="" nohref="nohref"/>
+<area shape="poly" coords="252,307,231,302,211,294,192,283,176,269,275,185,275,185" title="吉林省 比例:11%" alt="" nohref="nohref"/>
+<area shape="poly" coords="338,294,318,302,297,307,275,309,252,307,275,185,275,185" title="河南省郑州市 比例:11%" alt="" nohref="nohref"/>
+<area shape="poly" coords="397,235,387,253,373,269,357,283,338,294,275,185,275,185" title="北京市海淀区 比例:11%" alt="" nohref="nohref"/>
+<area shape="poly" coords="405,155,408,175,408,196,405,216,397,235,275,185,275,185" title="北京市崇文区 比例:11%" alt="" nohref="nohref"/>
+<area shape="poly" coords="357,88,373,102,387,118,397,136,405,155,275,185,275,185" title="北京市 比例:11%" alt="" nohref="nohref"/>
+<area shape="poly" coords="275,62,297,63,318,68,338,77,357,88,275,185,275,185" title="广东省广州市 比例:11%" alt="" nohref="nohref"/>
+</map>

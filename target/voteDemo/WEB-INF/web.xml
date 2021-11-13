@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+
+  <!-- 配置session的有效活动时间（单位：分钟） -->
+  <session-config>
+    <session-timeout>60</session-timeout>
+  </session-config>
+
+  <servlet>
+    <servlet-name>index</servlet-name>
+    <servlet-class>com.demo.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>vote</servlet-name>
+    <servlet-class>com.demo.servlet.VoteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>vote</servlet-name>
+    <url-pattern>/vote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>vote</servlet-name>
+    <url-pattern>/showresult</url-pattern>
+  </servlet-mapping>
+
+  <!-- 验证用户是否以POST方式提交的表单 -->
+  <filter>
+    <filter-name>method</filter-name>
+    <filter-class>com.demo.filter.SubmitFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>method</filter-name>
+    <url-pattern>/vote</url-pattern>
+  </filter-mapping>
+
+  <!-- 验证用户是否重复投票的过滤器 -->
+  <filter>
+    <filter-name>votelimit</filter-name>
+    <filter-class>com.demo.filter.VoteLimitFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>votelimit</filter-name>
+    <url-pattern>/vote</url-pattern>
+  </filter-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
